@@ -1,0 +1,22 @@
+// Google Font
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+// Setup Font
+$beausFont: 'Abril Fatface', cursive;
+
+// Base Colours
+$lightBrown: #c4a077;
+$darkBrown: #512b1b;
+$cream: #f5dfbd;
+$tealish: #a4baba;
+
+// Font Sizing
+$xsFont: 1.2rem;
+$smFont: 1.6rem;
+$mdFont: 2.5rem;
+$lgFont: 4.6rem;
+
+html {
+  font-size: 62.5%;
+}
+

@@ -1,0 +1,79 @@
+.ReactModalPortal > div {
+  opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+  display: flex;
+  justify-content: center;
+  transition: opacity 200ms ease-in-out;
+  align-items: center;
+}
+
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+
+.modal {
+  display: flex;
+  justify-content: space-between;
+  background: $lightBrown;
+  color: white;
+  max-width: 50%;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  font-family: Helvetica, sans-serif
+}
+
+
+.modal__title {
+  margin: 0 0 10px 0;
+}
+
+.modal__body {
+  margin: 0 0 20px 0;
+  font-size: 2rem;
+  font-weight: 300;
+  word-break: break-all;
+}
+
+
+.modal h3 {
+  font-size: 2.2rem;
+}
+.modal p {
+  font-size: 1.5rem;
+}
+
+.storeInfo {
+  width: 50%;
+  border: 1px solid;
+  padding: 0 15px;
+}
+
+.detailsWrapper__image {
+  width: 50%;
+  padding: 20px;
+  background: white;
+  border: 2px solid $darkBrown
+}
+
+.detailsWrapper__beer-name, .detailsWrapper__beer-taste, .storeInfo_beer-name, .storeInfo__storeDetails {
+  color: $darkBrown;
+  text-align: left;
+}
+
+.storeInfo_beer-name {
+  font-weight: bold;
+}
+
+.storeInfo__storeDetails {
+  font-size: $xsFont;
+}

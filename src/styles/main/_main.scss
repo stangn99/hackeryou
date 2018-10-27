@@ -1,0 +1,144 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%; 
+  min-height: 5vh;
+  background-color: $darkBrown;
+  
+}
+
+.header__logo {
+  margin-right: auto;
+  padding: 1%;
+}
+
+.header__logoimg {
+  width: auto;
+  height: 40px;
+}
+
+.header__navItem {
+  background-color: $cream; /* Green */
+  border: none;
+  height: 100%;
+  color: #343434;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: $smFont;
+  border-right: 1px solid $darkBrown;
+  outline: none;
+}
+
+.top {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  background: $lightBrown;
+  box-shadow: 0 0 5px rgba(0,0,0,.9);
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;  
+}
+
+.top__logo {
+  margin-right: auto;
+  width: 150px;
+  height: auto;
+}
+
+.top__nav {
+  width: 100px;
+}
+
+
+.hero {
+  margin: 0 auto;
+  position: relative;
+  max-height: 575px;
+  overflow: hidden;
+}
+
+.hero__image {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.hero__centre-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.hero__title {
+  font-size: $lgFont;
+  color: $cream;
+  text-shadow: 2px 2px #000000;
+}
+
+.hero__logo {
+  width: auto;
+  height: 100px;
+}
+
+.product {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  font-size: $smFont;
+  color: $darkBrown;
+  font-family: Helvetica, sans-serif;
+}
+
+.product__image-wrapper {
+  width: 200px;
+  height: auto;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.product__image {
+  max-width: 200px;
+  width: 100%;
+  border: 1px solid #E0E0E0;
+}
+
+.product__image:hover {
+  box-shadow: 0 0 5px rgba(0,0,0,.25);
+  cursor: pointer;
+  transition-duration: .5s;
+}
+
+
+.product__info-wrapper {
+  word-wrap: break-word;
+  width: 200px;
+  padding: 0 10px;
+  margin: 0 10px;
+  text-align: left;  
+  margin-bottom: 25px;
+}
+
+.product__details {
+  padding-bottom: 5px;
+}
+
+.product__details__name {
+  font-weight: bold;
+}
+
+.h2_product {
+  font-size: $lgFont;
+  color: $darkBrown;
+  font-family: $beausFont;
+  text-align: center;
+  margin: 0 auto;
+  margin: 25px 0;
+}
